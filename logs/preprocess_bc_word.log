@@ -1,0 +1,98 @@
+2021-07-21 11:08:39,283 - INFO - processor_bc_word.py - <module> - 131 - {'output_dir': '../checkpoints/', 'pretrained_dir': '../data/cnews/final_data/wiki_word/', 'pretrained_name': 'wiki.word.embedding.pkl', 'data_dir': '../data/cnews/final_data/wiki_word/', 'log_dir': '../logs/', 'num_tags': 65, 'num_layers': 2, 'seed': 123, 'vocab_size': 352217, 'embedding_size': 300, 'dropout': 0.3, 'hidden_size': 128, 'gpu_ids': '0', 'max_seq_len': 32, 'eval_batch_size': 12, 'train_epochs': 15, 'lr': 3e-05, 'max_grad_norm': 1, 'warmup_proportion': 0.1, 'weight_decay': 0.01, 'adam_epsilon': 1e-08, 'train_batch_size': 32, 'use_pretrained': True}
+2021-07-21 11:08:39,832 - INFO - processor_bc_word.py - convert_examples_to_features - 87 - Convert 180000 examples to features
+2021-07-21 11:08:39,832 - DEBUG - __init__.py - initialize - 113 - Building prefix dict from the default dictionary ...
+2021-07-21 11:08:39,832 - DEBUG - __init__.py - initialize - 133 - Loading model from cache /tmp/jieba.cache
+2021-07-21 11:08:40,535 - DEBUG - __init__.py - initialize - 165 - Loading model cost 0.703 seconds.
+2021-07-21 11:08:40,535 - DEBUG - __init__.py - initialize - 166 - Prefix dict has been built successfully.
+2021-07-21 11:08:40,535 - INFO - processor_bc_word.py - convert_word_example - 68 - *** train_example-0 ***
+2021-07-21 11:08:40,535 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['中华', '女子', '学院', '：', '本科', '层次', '仅', '1', '专业', '招', '男生']
+2021-07-21 11:08:40,535 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [2002, 471, 468, 18, 4600, 9059, 532, 74, 637, 5083, 11871, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:08:40,535 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：32
+2021-07-21 11:08:40,535 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 3
+2021-07-21 11:08:40,536 - INFO - processor_bc_word.py - convert_word_example - 68 - *** train_example-1 ***
+2021-07-21 11:08:40,536 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['两天', '价', '网站', '背后', '重重', '迷雾', '：', '做个', '网站', '究竟', '要', '多少', '钱']
+2021-07-21 11:08:40,536 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [1, 5208, 1017, 5246, 21889, 32159, 18, 1, 1017, 8813, 181, 5811, 2898, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:08:40,536 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：32
+2021-07-21 11:08:40,536 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 4
+2021-07-21 11:08:40,536 - INFO - processor_bc_word.py - convert_word_example - 68 - *** train_example-2 ***
+2021-07-21 11:08:40,536 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['东', '5', '环', '海棠', '公社', '230', '-', '290', '平', '2', '居', '准现房', '98', '折', '优惠']
+2021-07-21 11:08:40,536 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [312, 123, 1222, 24135, 5172, 9725, 37, 17112, 1363, 76, 2163, 1, 5532, 4390, 5465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:08:40,536 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：32
+2021-07-21 11:08:40,536 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 1
+2021-07-21 11:09:14,726 - INFO - processor_bc_word.py - <module> - 131 - {'output_dir': '../checkpoints/', 'pretrained_dir': '../data/cnews/final_data/wiki_word/', 'pretrained_name': 'wiki.word.embedding.pkl', 'data_dir': '../data/cnews/final_data/wiki_word/', 'log_dir': '../logs/', 'num_tags': 65, 'num_layers': 2, 'seed': 123, 'vocab_size': 352217, 'embedding_size': 300, 'dropout': 0.3, 'hidden_size': 128, 'gpu_ids': '0', 'max_seq_len': 32, 'eval_batch_size': 12, 'train_epochs': 15, 'lr': 3e-05, 'max_grad_norm': 1, 'warmup_proportion': 0.1, 'weight_decay': 0.01, 'adam_epsilon': 1e-08, 'train_batch_size': 32, 'use_pretrained': True}
+2021-07-21 11:09:15,284 - INFO - processor_bc_word.py - convert_examples_to_features - 87 - Convert 180000 examples to features
+2021-07-21 11:09:15,284 - DEBUG - __init__.py - initialize - 113 - Building prefix dict from the default dictionary ...
+2021-07-21 11:09:15,285 - DEBUG - __init__.py - initialize - 133 - Loading model from cache /tmp/jieba.cache
+2021-07-21 11:09:16,002 - DEBUG - __init__.py - initialize - 165 - Loading model cost 0.717 seconds.
+2021-07-21 11:09:16,002 - DEBUG - __init__.py - initialize - 166 - Prefix dict has been built successfully.
+2021-07-21 11:09:16,002 - INFO - processor_bc_word.py - convert_word_example - 68 - *** train_example-0 ***
+2021-07-21 11:09:16,002 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['中华', '女子', '学院', '：', '本科', '层次', '仅', '1', '专业', '招', '男生']
+2021-07-21 11:09:16,002 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [2002, 471, 468, 18, 4600, 9059, 532, 74, 637, 5083, 11871, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：32
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 3
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 68 - *** train_example-1 ***
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['两天', '价', '网站', '背后', '重重', '迷雾', '：', '做个', '网站', '究竟', '要', '多少', '钱']
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [1, 5208, 1017, 5246, 21889, 32159, 18, 1, 1017, 8813, 181, 5811, 2898, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：32
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 4
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 68 - *** train_example-2 ***
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['东', '5', '环', '海棠', '公社', '230', '-', '290', '平', '2', '居', '准现房', '98', '折', '优惠']
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [312, 123, 1222, 24135, 5172, 9725, 37, 17112, 1363, 76, 2163, 1, 5532, 4390, 5465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：32
+2021-07-21 11:09:16,003 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 1
+2021-07-21 11:09:43,696 - INFO - processor_bc_word.py - <module> - 131 - {'output_dir': '../checkpoints/', 'pretrained_dir': '../data/cnews/final_data/wiki_word/', 'pretrained_name': 'wiki.word.embedding.pkl', 'data_dir': '../data/cnews/final_data/wiki_word/', 'log_dir': '../logs/', 'num_tags': 65, 'num_layers': 2, 'seed': 123, 'vocab_size': 352217, 'embedding_size': 300, 'dropout': 0.3, 'hidden_size': 128, 'gpu_ids': '0', 'max_seq_len': 32, 'eval_batch_size': 12, 'train_epochs': 15, 'lr': 3e-05, 'max_grad_norm': 1, 'warmup_proportion': 0.1, 'weight_decay': 0.01, 'adam_epsilon': 1e-08, 'train_batch_size': 32, 'use_pretrained': True}
+2021-07-21 11:09:44,257 - INFO - processor_bc_word.py - convert_examples_to_features - 87 - Convert 180000 examples to features
+2021-07-21 11:09:44,258 - DEBUG - __init__.py - initialize - 113 - Building prefix dict from the default dictionary ...
+2021-07-21 11:09:44,258 - DEBUG - __init__.py - initialize - 133 - Loading model from cache /tmp/jieba.cache
+2021-07-21 11:09:44,964 - DEBUG - __init__.py - initialize - 165 - Loading model cost 0.706 seconds.
+2021-07-21 11:09:44,964 - DEBUG - __init__.py - initialize - 166 - Prefix dict has been built successfully.
+2021-07-21 11:09:44,964 - INFO - processor_bc_word.py - convert_word_example - 68 - *** train_example-0 ***
+2021-07-21 11:09:44,964 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['中华', '女子', '学院', '：', '本科', '层次', '仅', '1', '专业', '招', '男生']
+2021-07-21 11:09:44,964 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [2002, 471, 468, 18, 4600, 9059, 532, 74, 637, 5083, 11871, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：11
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 3
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 68 - *** train_example-1 ***
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['两天', '价', '网站', '背后', '重重', '迷雾', '：', '做个', '网站', '究竟', '要', '多少', '钱']
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [1, 5208, 1017, 5246, 21889, 32159, 18, 1, 1017, 8813, 181, 5811, 2898, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：13
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 4
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 68 - *** train_example-2 ***
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['东', '5', '环', '海棠', '公社', '230', '-', '290', '平', '2', '居', '准现房', '98', '折', '优惠']
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [312, 123, 1222, 24135, 5172, 9725, 37, 17112, 1363, 76, 2163, 1, 5532, 4390, 5465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:09:44,965 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：15
+2021-07-21 11:09:44,966 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 1
+2021-07-21 11:10:03,006 - INFO - processor_bc_word.py - convert_examples_to_features - 102 - Build 180000 features
+2021-07-21 11:10:03,031 - INFO - processor_bc_word.py - convert_examples_to_features - 87 - Convert 10000 examples to features
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 68 - *** dev_example-0 ***
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['体验', '2D', '巅峰', ' ', '倚天', '屠龙记', '十大', '创新', '概览']
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [5991, 1, 16370, 1, 30208, 44356, 1, 4226, 105225, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：9
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 8
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 68 - *** dev_example-1 ***
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['60', '年', '铁树开花', '形状', '似', '玉米芯', '(', '组图', ')']
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [1074, 8, 1, 2626, 2730, 1, 189407, 1, 145353, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：9
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 5
+2021-07-21 11:10:03,032 - INFO - processor_bc_word.py - convert_word_example - 68 - *** dev_example-2 ***
+2021-07-21 11:10:03,033 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['同步', 'A股', '首秀', '：', '港股', '缩量', '回调']
+2021-07-21 11:10:03,033 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [4381, 1, 1, 18, 39349, 1, 109012, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:10:03,033 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：7
+2021-07-21 11:10:03,033 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 2
+2021-07-21 11:10:03,986 - INFO - processor_bc_word.py - convert_examples_to_features - 102 - Build 10000 features
+2021-07-21 11:10:04,001 - INFO - processor_bc_word.py - convert_examples_to_features - 87 - Convert 10000 examples to features
+2021-07-21 11:10:04,001 - INFO - processor_bc_word.py - convert_word_example - 68 - *** test_example-0 ***
+2021-07-21 11:10:04,001 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['词汇', '阅读', '是', '关键', ' ', '08', '年', '考研', '暑期', '英语', '复习', '全', '指南']
+2021-07-21 11:10:04,001 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [5728, 4369, 14, 5437, 1, 7135, 8, 192617, 22797, 842, 89644, 735, 10740, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:10:04,001 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：13
+2021-07-21 11:10:04,001 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 3
+2021-07-21 11:10:04,002 - INFO - processor_bc_word.py - convert_word_example - 68 - *** test_example-1 ***
+2021-07-21 11:10:04,002 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['中国', '人民', '公安大学', '2012', '年', '硕士', '研究生', '目录', '及', '书目']
+2021-07-21 11:10:04,002 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [53, 662, 1, 1196, 8, 2969, 3057, 7050, 26, 20486, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:10:04,002 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：10
+2021-07-21 11:10:04,002 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 3
+2021-07-21 11:10:04,002 - INFO - processor_bc_word.py - convert_word_example - 68 - *** test_example-2 ***
+2021-07-21 11:10:04,002 - INFO - processor_bc_word.py - convert_word_example - 69 - text: ['日本', '地震', '：', '金吉列', '关注', '在', '日', '学子', '系列报道']
+2021-07-21 11:10:04,002 - INFO - processor_bc_word.py - convert_word_example - 70 - word_ids: [91, 2348, 18, 1, 2347, 7, 51, 20068, 114163, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2021-07-21 11:10:04,002 - INFO - processor_bc_word.py - convert_word_example - 71 - seq_lens：9
+2021-07-21 11:10:04,002 - INFO - processor_bc_word.py - convert_word_example - 72 - labels: 3
+2021-07-21 11:10:04,952 - INFO - processor_bc_word.py - convert_examples_to_features - 102 - Build 10000 features
