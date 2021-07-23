@@ -46,4 +46,6 @@ python textcnn_main.py --pretrained_dir="../data/cnews/final_data/wiki_word/" --
 | fasttext   |    31.577982     |    0.8709    |
 | textrcnn   |     -    |     -   |
 
-最后一个忘记测试了，=，=!
+最后一个忘记测试了，=，=!<br>
+模型参考了以下，十分感谢：<br>
+> https://github.com/649453932/Chinese-Text-Classification-Pytorch
