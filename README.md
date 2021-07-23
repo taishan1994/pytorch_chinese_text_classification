@@ -1,0 +1,2 @@
+# pytorch_chinese_classification
+基于pytorch的中文文本分类，包含fasttext、textcnn、textrnn、textrnn_att、textrnn_bc、transformer、dpcnn
