@@ -34,7 +34,7 @@ python textcnn_main.py --pretrained_dir="../data/cnews/final_data/wiki_word/" --
 在每一个xxx_main.py中，都包含了训练、验证、测试以及预测功能，可根据相应情况进行注释。
 
 # 运行结果
-在测试集上的表现：
+在测试集上的表现：所有的实验都是在相同的基础设置下完成的，可能并不是最优的参数。
 | 模型      | loss | micro_f1 |
 | ----------- | ----------- | ----------- |
 | textcnn      |  26.163740      | 0.8955 |
