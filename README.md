@@ -45,4 +45,5 @@ python textcnn_main.py --pretrained_dir="../data/cnews/final_data/wiki_word/" --
 | transformer   |   29.856594      |   0.8861     |
 | fasttext   |    31.577982     |    0.8709    |
 | textrcnn   |     -    |     -   |
+
 最后一个忘记测试了，=，=!
